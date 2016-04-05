@@ -13,7 +13,7 @@ export default class App extends React.Component {
             complete: false,
             createdAt: new Date()
         })
-        var text = this.refs.resolution.value="";
+        this.refs.resolution.value="";
     }
 
     render() {

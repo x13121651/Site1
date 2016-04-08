@@ -290,6 +290,8 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_method/3.0.2/web.browser/client/main.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_method/3.0.2/web.browser/ToyKit/main.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_method/3.0.2/web.browser/ToyKit/main.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ultimatejs_tracker-react/1.0.4/web.browser/main.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ultimatejs_tracker-react/1.0.4/web.browser/Tracker.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_pub/3.0.2/web.browser/lib/main.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_pub/3.0.2/web.browser/client/main.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/allow-deny/1.0.2/web.browser/allow-deny.js" />
@@ -618,6 +620,8 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_method/3.0.2/web.browser/client/main.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_method/3.0.2/web.browser/ToyKit/main.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_method/3.0.2/web.browser/ToyKit/main.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ultimatejs_tracker-react/1.0.4/web.browser/main.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ultimatejs_tracker-react/1.0.4/web.browser/Tracker.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_pub/3.0.2/web.browser/lib/main.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_pub/3.0.2/web.browser/client/main.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/allow-deny/1.0.2/web.browser/allow-deny.js" />

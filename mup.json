@@ -2,7 +2,7 @@
   // Server authentication info
   "servers": [
     {
-      "host": "178.62.46.227",
+      "host": "ronanlafford.me",
       "username": "root",
       //"password": "password"
       // or pem file (ssh based authentication)
@@ -10,17 +10,25 @@
     }
   ],
 
+
+// setup SSL
+ // "ssl": {
+  //  "pem": "./ssl.pem"
+   // "backendPort": 80
+ // },
+
+
   // Install MongoDB in the server, does not destroy local MongoDB on future setup
-  "setupMongo": false,
+  "setupMongo": true,
 
   // WARNING: Node.js is required! Only skip if you already have Node.js installed on server.
-  "setupNode": false,
+  "setupNode": true,
 
-  // WARNING: If nodeVersion omitted will setup 0.10.36 by default. Do not use v, only version number.
+  // WARNING: If nodeVersion omitted will setup 0.10.36 by default. Do not use v, only version number."0.10.43
   "nodeVersion": "0.10.43",
 
   // Install PhantomJS in the server
-  "setupPhantom": false,
+  "setupPhantom": true,
 
   // Show a progress bar during the upload of the bundle to the server. 
   // Might cause an error in some rare cases if set to true, for instance in Shippable CI
@@ -30,11 +38,15 @@
   "appName": "myApp",
 
   // Location of app (local directory)
-  "app": ".",
+  "app": "C:/Users/Ronan/WebstormProjects/myApp",
 
   // Configure environment
   "env": {
-    "ROOT_URL": "http://178.62.46.227"
+    "PORT": 3000,
+    "ROOT_URL": "https://www.ronanlafford.me"
+    // any port other than 80 (the default)
+    // because nginx is running on port 80
+    //"PORT": 8080
   },
 
 
@@ -42,3 +54,4 @@
   // before mup checks that, it will wait for no. of seconds configured below
   "deployCheckWaitTime": 15
 }
+
